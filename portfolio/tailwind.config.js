@@ -9,6 +9,7 @@ module.exports = {
       current: 'currentColor',
       'white': '#ffffff',
       'black': '#3A2D32',
+      'pink': '#391B27',
     },
   },
   plugins: [],

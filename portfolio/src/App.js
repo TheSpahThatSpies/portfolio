@@ -2,11 +2,13 @@ import './App.css';
 import mypicture from './img/me.png';
 import futurepic from './img/futureworld.png'
 import studypic from './img/studyroom.png'
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
     <div className="App">
-      <main class="pt-16 flex bg-black flex-col content-center justify-center">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"></link>
+      <main class="pt-5 d-flex bg-black flex-column content-center justify-center">
         <div class="flex space-x-28 justify-center">
           <div class='bg-pink px-10 py-7'>
             <h1 class="text-7xl text-white font-sans font-bold">Christian Borggård</h1>
